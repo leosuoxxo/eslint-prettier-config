@@ -6,7 +6,6 @@
   "author": "Leo Su <grong.su@gmail.com>",
   "description": "",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint .",
     "release": "lerna publish --conventional-commits"
   },
