@@ -1,0 +1,27 @@
+{
+  "name": "@1e05u/eslint-react-config",
+  "version": "1.0.0",
+  "keywords": [],
+  "license": "MIT",
+  "author": "leo su <grong.su@gmail.com>",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.3.0"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "react": "^17.0.2",
+    "typescript": "^4.5.2"
+  }
+}
