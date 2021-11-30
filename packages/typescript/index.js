@@ -34,7 +34,10 @@ module.exports = {
         indent: 'off',
         '@typescript-eslint/indent': ['error', 2],
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          { argsIgnorePattern: '^_' },
+        ],
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': 'error',
 

@@ -4,12 +4,20 @@ importers:
 
   .:
     specifiers:
+      '@1e05u/eslint-basic-config': workspace:*
+      '@1e05u/eslint-react-config': workspace:^1.0.3
+      '@1e05u/eslint-typescript-config': workspace:^1.0.3
+      '@1e05u/prettier-config': workspace:^1.0.2
       eslint: ^8.3.0
       eslint-config-prettier: ^8.3.0
       lerna: ^4.0.0
       prettier: ^2.4.1
       typescript: ^4.5.2
     devDependencies:
+      '@1e05u/eslint-basic-config': link:packages/basic
+      '@1e05u/eslint-react-config': link:packages/react
+      '@1e05u/eslint-typescript-config': link:packages/typescript
+      '@1e05u/prettier-config': link:packages/prettier
       eslint: 8.3.0
       eslint-config-prettier: 8.3.0_eslint@8.3.0
       lerna: 4.0.0
@@ -29,7 +37,6 @@ importers:
       eslint-plugin-unicorn: ^37.0.1
       eslint-plugin-yml: ^0.10.1
       jsonc-eslint-parser: ^1.4.1
-      typescript: ^4.5.2
       yaml-eslint-parser: ^0.4.1
     dependencies:
       eslint-config-standard: 16.0.3_a91986cd61f51e0cdba75303fb12b37d
@@ -45,7 +52,6 @@ importers:
       yaml-eslint-parser: 0.4.1
     devDependencies:
       eslint: 8.3.0
-      typescript: 4.5.2
 
   packages/prettier:
     specifiers:

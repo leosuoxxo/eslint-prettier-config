@@ -4,15 +4,19 @@
   "keywords": [],
   "license": "MIT",
   "author": "leo su <grong.su@gmail.com>",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint . --config=./index.js"
   },
   "peerDependencies": {
-    "eslint": ">=8.3.0"
+    "eslint": ">=^8.3.0"
   },
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
@@ -28,8 +32,7 @@
     "yaml-eslint-parser": "^0.4.1"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
-    "typescript": "^4.5.2"
+    "eslint": "^8.3.0"
   },
   "gitHead": "03af0486fd8e396a8b48ffabe818646f075b834e"
 }
