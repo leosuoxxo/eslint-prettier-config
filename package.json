@@ -1,6 +1,5 @@
 {
   "name": "@oneclass/eslint-prettier-config",
-  "private": true,
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
