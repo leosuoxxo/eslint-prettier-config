@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/leosuoxxo/eslint-prettier-config/compare/v1.0.5...v1.1.0) (2022-01-18)
+
+
+### Features
+
+* revise prettier semi to true ([2b4afd7](https://github.com/leosuoxxo/eslint-prettier-config/commit/2b4afd7963874b3b018f840fa68d2dab016b594a))
+
+
+
+
+
 ## [1.0.5](https://github.com/leosuoxxo/eslint-prettier-config/compare/v1.0.4...v1.0.5) (2022-01-18)
 
 **Note:** Version bump only for package @oneclass/prettier-config
