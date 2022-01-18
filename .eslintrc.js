@@ -1,10 +1,10 @@
 module.exports = {
   extends: [
-    require.resolve('@1e05u/eslint-basic-config'),
-    require.resolve('@1e05u/eslint-react-config'),
-    require.resolve('@1e05u/eslint-typescript-config'),
+    require.resolve('@oneclass/eslint-basic-config'),
+    require.resolve('@oneclass/eslint-react-config'),
+    require.resolve('@oneclass/eslint-typescript-config'),
     'prettier',
   ],
 }
 
-// module.exports = require('@1e05u/eslint-basic-config')
+// module.exports = require('@oneclass/eslint-basic-config')

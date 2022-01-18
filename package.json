@@ -1,5 +1,5 @@
 {
-  "name": "@1e05u/eslint-prettier-config",
+  "name": "@oneclass/eslint-prettier-config",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -11,10 +11,10 @@
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "@1e05u/eslint-basic-config": "workspace:*",
-    "@1e05u/eslint-react-config": "workspace:^1.0.3",
-    "@1e05u/eslint-typescript-config": "workspace:^1.0.4",
-    "@1e05u/prettier-config": "workspace:^1.0.2",
+    "@oneclass/eslint-basic-config": "workspace:*",
+    "@oneclass/eslint-react-config": "workspace:^1.0.3",
+    "@oneclass/eslint-typescript-config": "workspace:^1.0.4",
+    "@oneclass/prettier-config": "workspace:^1.0.2",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "lerna": "^4.0.0",

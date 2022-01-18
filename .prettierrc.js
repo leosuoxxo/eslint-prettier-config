@@ -1,1 +1,1 @@
-module.exports = require("@1e05u/prettier-config");
+module.exports = require('@oneclass/prettier-config')
