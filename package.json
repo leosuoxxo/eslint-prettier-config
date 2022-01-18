@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://oneclass-rd@dev.azure.com/oneclass-rd/Tools/_git/eslint-prettier-config"
+    "url": "https://dev.azure.com/oneclass-rd/Tools/_git/eslint-prettier-config"
   }
 }
