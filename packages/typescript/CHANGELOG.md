@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://dev.azure.com/oneclass-rd/Tools/_git/eslint-prettier-config/compare/v1.2.2...v1.3.0) (2022-01-22)
+
+
+### Features
+
+* turn on typescript semi rules ([bab8bf3](https://dev.azure.com/oneclass-rd/Tools/_git/eslint-prettier-config/commits/bab8bf3586a200535d804bd6e5f49bf0f5aee455))
+
+
+
+
+
 ## [1.2.2](https://dev.azure.com/oneclass-rd/Tools/_git/eslint-prettier-config/compare/v1.2.1...v1.2.2) (2022-01-18)
 
 **Note:** Version bump only for package @oneclass/eslint-typescript-config
