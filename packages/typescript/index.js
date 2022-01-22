@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const fs = require('fs')
+const fs = require('fs');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const path = require('path')
+const path = require('path');
 
 const tsConfig = fs.existsSync('tsconfig.json')
   ? path.resolve('tsconfig.json')
   : fs.existsSync('types/tsconfig.json')
   ? path.resolve('types/tsconfig.json')
-  : undefined
+  : undefined;
 
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended'],
@@ -24,7 +24,7 @@ module.exports = {
       rules: {
         'import/named': 'off',
         'no-useless-constructor': 'off',
-        '@typescript-eslint/semi': ['error', 'never'],
+        '@typescript-eslint/semi': ['error', 'always'],
         '@typescript-eslint/member-delimiter-style': [
           'error',
           { multiline: { delimiter: 'none' } },
@@ -56,4 +56,4 @@ module.exports = {
       },
     },
   ],
-}
+};
