@@ -12,11 +12,11 @@
     "access": "public"
   },
   "scripts": {
-    "preinstall": "npm install",
+    "preinstall": "npx only-allow pnpm",
     "lint": "eslint . --config=./index.js"
   },
   "peerDependencies": {
-    "eslint": ">=^8.3.0"
+    "eslint": ">=8.6.0"
   },
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
