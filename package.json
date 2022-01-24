@@ -5,7 +5,6 @@
   "license": "MIT",
   "author": "Leo Su <grong.su@gmail.com> (https://github.com/leosuoxxo/)",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
     "release": "lerna publish --conventional-commits"
   },
