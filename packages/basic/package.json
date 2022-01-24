@@ -12,7 +12,7 @@
     "access": "public"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "npm install",
     "lint": "eslint . --config=./index.js"
   },
   "peerDependencies": {
