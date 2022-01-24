@@ -6,7 +6,7 @@
   "author": "leo su <grong.su@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm i"
+    "prepare": "npm i"
   },
   "publishConfig": {
     "access": "public"
