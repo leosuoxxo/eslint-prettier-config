@@ -8,6 +8,7 @@
     "access": "public"
   },
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
